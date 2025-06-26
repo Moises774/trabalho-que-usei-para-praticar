@@ -1,0 +1,153 @@
+body{
+    background-image: url(https://cdn.playersupport.riotgames.com/support-site/images/lol/masthead/background.webp);
+    background-position: center;
+    background-size: cover;
+    background-position-y: top;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.login-box {
+  background-color: rgb(255, 255, 255);
+  width: 490px;
+  height:610px;
+  margin-top: 3%;
+}
+h1{
+    margin-left: 37%;
+    font-size:25px;
+    margin-top: 70px;
+}
+.LOGO {
+  position: absolute;
+  top: 30px;
+  left: 75px;
+  height: 43px;
+}
+.nome{
+  margin-left: 9.5%;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  height: 40px;
+  width: 400px;
+  font-weight: bolder;
+}
+.senha{
+  margin-left: 9.5%;
+  border: solid 1px transparent;
+  border-radius: 4px;
+  height: 40px;
+  width: 400px;
+  font-weight: bolder;
+}
+.fa-facebook {
+  margin-left: 10%;
+  padding: 9px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  background: rgb(82, 108, 255);
+  color: white;
+  cursor: pointer;
+}
+.fa-facebook:hover{
+  background: rgb(66, 66, 223);
+  box-shadow:0.7px 0.7px 6px 1.5px rgb(212, 212, 212);
+}
+.fa-google{
+  margin-left: 2%;
+  font-size: 30px;
+  background-image: url(https://fonts.gstatic.com/s/i/productlogos/googleg/v6/16px.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  color: transparent;
+  padding: 9px;
+  width: 50px;
+  border-radius:10px;
+  cursor: pointer;
+}
+.fa-google:hover{
+  box-shadow:0.7px 0.7px 6px 1.5px rgb(212, 212, 212);
+}
+.fa-apple{
+  margin-left: 2%;
+  padding: 9px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  background: rgb(0, 0, 0);
+  color: white;
+  cursor: pointer;
+}
+.fa-apple:hover{
+  box-shadow:0.7px 0.7px 6px 1.5px rgb(212, 212, 212);
+  background: rgb(20, 20, 20);
+}
+.nome:hover{
+  background-color: rgb(224, 224, 224);
+}
+.senha:hover{
+  background-color: rgb(224, 224, 224);
+}
+.fa-playstation{
+  margin-left: 2%;
+  padding: 9px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  background: rgb(11, 11, 255);
+  color: white;
+  cursor: pointer;
+}
+.fa-playstation:hover{
+  box-shadow:0.7px 0.7px 6px 1.5px rgb(212, 212, 212);
+  background-color: rgb(6, 0, 82);
+}
+.fa-xbox{
+  margin-left: 2%;
+  padding: 9px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  border-radius:10px;
+  background: green;
+  color: white;
+  cursor: pointer;
+}
+.fa-xbox:hover{
+  box-shadow:0.7px 0.7px 6px 1.5px rgb(212, 212, 212);
+  background-color: rgb(0, 97, 8);
+}
+.login{
+  margin-left: 42%;
+  height: 70px;
+  width: 75px;
+  border-radius:20px;
+  border: solid 1px rgb(212, 212, 212);
+  margin-top: 80px;
+  background: white;
+  font-size: 40px;
+  cursor: pointer;
+}
+.login::after{
+  content: " →";
+  font-size: 30px;
+  font-weight: bolder;
+}
+p{
+  font-size: 12px;
+  font-weight: bolder;
+  text-align: center;
+}
+.check{
+  margin-left: 10%;
+}
